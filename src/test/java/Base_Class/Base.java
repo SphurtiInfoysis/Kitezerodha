@@ -13,6 +13,7 @@ public class Base {
 		driver.get("https://demo.actitime.com/login.do");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		System.out.println("Hi");
 		
 	}
 
